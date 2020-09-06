@@ -13,4 +13,6 @@ We came up with a web application using machine learning which keeps the tracks 
 `pip install -r requirements.txt`
 2. Install XAMPP
 
-# Run Ap
+# Run App
+
+1. Import the **fitbit.sql** and **foo
