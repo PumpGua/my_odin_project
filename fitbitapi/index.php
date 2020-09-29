@@ -2,4 +2,5 @@
     include 'dbconnect.php';
     if(isset($_GET['verify'])){
         $userid=$_GET['verify'];
-        $query="select *
+        $query="select * from users where uid='$userid'";
+        $run=
