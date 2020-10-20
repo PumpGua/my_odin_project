@@ -9,4 +9,6 @@
                 'exists'=>'1'
             );
         }
-        else
+        else{
+        $json = array(
+            'exi
