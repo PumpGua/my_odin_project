@@ -6,4 +6,7 @@
         $run=mysqli_query($connect,$query);
         if(mysqli_num_rows($run)==1){
             $json=array(
-           
+                'exists'=>'1'
+            );
+        }
+        else
