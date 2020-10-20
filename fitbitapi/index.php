@@ -4,4 +4,6 @@
         $userid=$_GET['verify'];
         $query="select * from users where uid='$userid'";
         $run=mysqli_query($connect,$query);
-        if(mys
+        if(mysqli_num_rows($run)==1){
+            $json=array(
+           
