@@ -14,4 +14,7 @@
             'exists' => '0'
         );
         }
-        echo json_encode
+        echo json_encode($json);
+    }
+if (isset($_GET['bmi'])) {
+    $userid =
