@@ -11,4 +11,7 @@
         }
         else{
         $json = array(
-            'exi
+            'exists' => '0'
+        );
+        }
+        echo json_encode
