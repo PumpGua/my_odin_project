@@ -17,4 +17,5 @@
         echo json_encode($json);
     }
 if (isset($_GET['bmi'])) {
-    $userid =
+    $userid = $_GET['bmi'];
+    $query = "select * from users where u
