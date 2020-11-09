@@ -19,4 +19,6 @@
 if (isset($_GET['bmi'])) {
     $userid = $_GET['bmi'];
     $query = "select * from users where uid='$userid'";
-    $run = mysqli_query($connect
+    $run = mysqli_query($connect, $query);
+    $fetch=mysqli_fetch_assoc($run);
+    $he
