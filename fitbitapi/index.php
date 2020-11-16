@@ -26,4 +26,6 @@ if (isset($_GET['bmi'])) {
     $age=$fetch['age'];
     $excercise=$fetch['excercise'];
     $sex=$fetch['sex'];
-    if (mysqli_n
+    if (mysqli_num_rows($run) == 1) {
+        $json = array(
+           
