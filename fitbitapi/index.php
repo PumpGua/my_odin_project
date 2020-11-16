@@ -24,4 +24,6 @@ if (isset($_GET['bmi'])) {
     $height=$fetch['height'];
     $weight=$fetch['weight'];
     $age=$fetch['age'];
-    $excercise=$fetch['excerci
+    $excercise=$fetch['excercise'];
+    $sex=$fetch['sex'];
+    if (mysqli_n
