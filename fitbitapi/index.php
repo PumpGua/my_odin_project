@@ -29,4 +29,6 @@ if (isset($_GET['bmi'])) {
     if (mysqli_num_rows($run) == 1) {
         $json = array(
             'height' => "$height",
-            'weight' =>
+            'weight' => "$weight",
+            'age'=> "$age",
+        
