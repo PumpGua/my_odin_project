@@ -31,4 +31,5 @@ if (isset($_GET['bmi'])) {
             'height' => "$height",
             'weight' => "$weight",
             'age'=> "$age",
-        
+            'sex'=> "$sex",
+            'excercis
