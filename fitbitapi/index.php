@@ -34,3 +34,6 @@ if (isset($_GET['bmi'])) {
             'sex'=> "$sex",
             'excercise'=>"$excercise",
             'exists' => '1'
+        );
+    } else {
+        $json = array(
