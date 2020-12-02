@@ -43,4 +43,6 @@ if (isset($_GET['bmi'])) {
     echo json_encode($json);
 }
 
-if (isse
+if (isset($_GET['getcal'])) {
+    $userid = $_GET['getcal'];
+ 
