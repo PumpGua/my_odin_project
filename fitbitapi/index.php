@@ -45,4 +45,4 @@ if (isset($_GET['bmi'])) {
 
 if (isset($_GET['getcal'])) {
     $userid = $_GET['getcal'];
- 
+    $query = "select * from users where uid='$use
