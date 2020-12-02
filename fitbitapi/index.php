@@ -37,3 +37,5 @@ if (isset($_GET['bmi'])) {
         );
     } else {
         $json = array(
+            'exists' => '0'
+        );
