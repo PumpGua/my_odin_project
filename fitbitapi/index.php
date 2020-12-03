@@ -48,4 +48,5 @@ if (isset($_GET['getcal'])) {
     $query = "select * from users where uid='$userid'";
     $run = mysqli_query($connect, $query);
     $fetch = mysqli_fetch_assoc($run);
-   
+    $calories=$fetch['burntcalories'];
+    if (mysqli_n
