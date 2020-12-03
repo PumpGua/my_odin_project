@@ -46,4 +46,6 @@ if (isset($_GET['bmi'])) {
 if (isset($_GET['getcal'])) {
     $userid = $_GET['getcal'];
     $query = "select * from users where uid='$userid'";
-    $run = mysqli_query($connect, $q
+    $run = mysqli_query($connect, $query);
+    $fetch = mysqli_fetch_assoc($run);
+   
