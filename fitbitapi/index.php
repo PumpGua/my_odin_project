@@ -49,4 +49,6 @@ if (isset($_GET['getcal'])) {
     $run = mysqli_query($connect, $query);
     $fetch = mysqli_fetch_assoc($run);
     $calories=$fetch['burntcalories'];
-    if (mysqli_n
+    if (mysqli_num_rows($run) == 1) {
+        $json = array(
+    
