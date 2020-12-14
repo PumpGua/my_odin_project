@@ -51,4 +51,5 @@ if (isset($_GET['getcal'])) {
     $calories=$fetch['burntcalories'];
     if (mysqli_num_rows($run) == 1) {
         $json = array(
-    
+            'calories'=>"$calories",
+            'exists' =>
