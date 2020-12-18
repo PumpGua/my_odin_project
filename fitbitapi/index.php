@@ -55,4 +55,8 @@ if (isset($_GET['getcal'])) {
             'exists' => '1'
         );
     } else {
-        $json =
+        $json = array(
+            'exists' => '0'
+        );
+    }
+ 
