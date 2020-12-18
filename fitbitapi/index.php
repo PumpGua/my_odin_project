@@ -52,4 +52,7 @@ if (isset($_GET['getcal'])) {
     if (mysqli_num_rows($run) == 1) {
         $json = array(
             'calories'=>"$calories",
-            'exists' =>
+            'exists' => '1'
+        );
+    } else {
+        $json =
