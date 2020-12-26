@@ -59,4 +59,6 @@ if (isset($_GET['getcal'])) {
             'exists' => '0'
         );
     }
- 
+    echo json_encode($json);
+}
+?>
