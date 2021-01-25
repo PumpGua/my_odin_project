@@ -14,4 +14,5 @@ body {
 
 .header {
     /* height: 90vh; */
-    background-image: linear-gradient
+    background-image: linear-gradient(
+                        to right bottom,
