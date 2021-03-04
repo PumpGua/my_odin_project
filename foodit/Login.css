@@ -17,4 +17,6 @@ body {
     background-image: linear-gradient(
                         to right bottom,
                         rgba(207, 31, 54, 0.8), 
-                        rgba(175, 28, 21
+                        rgba(175, 28, 219, 0.8)), 
+                        url("Serving.jpg");
+    backgr
