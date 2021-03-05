@@ -20,4 +20,6 @@ body {
                         rgba(175, 28, 219, 0.8)), 
                         url("Serving.jpg");
     background-size: cover;
-    background-position: ce
+    background-position: center;   
+    position: relative;
+    /* clip-path: polyg
