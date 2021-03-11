@@ -27,4 +27,10 @@ body {
 .logo-box {
     position: absolute;
     top: 40px;
-    le
+    left: 4%;
+}
+.logo {
+    height: 13vh;
+}
+
+.text-area {
