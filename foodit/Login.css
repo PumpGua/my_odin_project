@@ -35,4 +35,6 @@ body {
 
 .text-area {
     padding: 10px;
-    background-color: rgba(
+    background-color: rgba(199, 199, 199, 0.5);
+    position: absolute;
+    left: 
