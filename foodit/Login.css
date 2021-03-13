@@ -42,4 +42,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.for
+.form {
+    height: 250px;
+    width: 400px;
+}
+
+h1 {
+ 
