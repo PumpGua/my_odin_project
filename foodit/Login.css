@@ -37,4 +37,9 @@ body {
     padding: 10px;
     background-color: rgba(199, 199, 199, 0.5);
     position: absolute;
-    left: 
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.for
