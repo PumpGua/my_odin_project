@@ -50,4 +50,10 @@ body {
 h1 {
     width: 400px;
     margin-left: 0px;
-    text-align: 
+    text-align: center;
+}
+
+
+section {
+    margin: 0;
+    padding: 0
