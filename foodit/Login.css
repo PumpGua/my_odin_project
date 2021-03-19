@@ -74,4 +74,9 @@ path {
     justify-content: center;
 }
 .resgister-button {
-    widt
+    width: 400px;
+    height: 4%;
+}
+
+#Register {
+    line-height: 
