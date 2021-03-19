@@ -62,4 +62,9 @@ section {
     height: 100vh;
 }
 #curve {
-     po
+     position: absolute;
+     bottom: 0;
+}
+path {
+    fill:white;
+}
