@@ -71,4 +71,7 @@ path {
 
 .center {
     display: flex;
-    justify-cont
+    justify-content: center;
+}
+.resgister-button {
+    widt
