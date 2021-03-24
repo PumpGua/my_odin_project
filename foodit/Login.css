@@ -96,4 +96,7 @@ path {
         height: 8vh;
         margin-left: 60px;
     }
-    .t
+    .text-area {
+        top: 50%;
+        height: 350px;
+ 
