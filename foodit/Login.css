@@ -99,4 +99,7 @@ path {
     .text-area {
         top: 50%;
         height: 350px;
- 
+        width: 300px;
+    }
+    h1 {
+        width: 25
