@@ -67,3 +67,46 @@
                                 <div class="col-md-6 col-sm-12">
                                    <div class="login-form">
                                        <h1>Login</h1>
+                                      <form action="Login.php" method="POST" class="form">
+                                         <div class="form-group">
+                                            <label>User Name</label>
+                                            <input name="email" type="email" class="form-control" placeholder="Email" required>
+                                         </div>
+                                         <div class="form-group">
+                                            <label>Password</label>
+                                            <input name="pass" type="password" class="form-control" placeholder="Password" required>
+                                         </div>
+                                         <div class="center">
+                                            <button type="submit" name="submit" id="login" class="btn btn-secondary">Login</button>  
+                                         </div>
+                                         <hr>
+                                      </form>
+                                      <div class="resgister-button">
+                                        <label for="Register">If you are New User Click here <span class="emoji">👉</span></label>
+                                        <button class="btn btn-dark" id="Register" onclick="run()">Register</button>
+                                      </div>
+                                    </div>
+                                </div>
+                        </div>
+
+                </div>
+                
+                <section>
+                        <svg id="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 244.52">
+                            <path class="st0" d="M-9.1,192.7c242.9-109.5,410.5-247,699.3-83.9c383.6,216.5,716.5-19.2,716.5-19.2v173.5H-9.1V192.7z"/>
+                        </svg>
+                </section>
+                
+                <script>
+                        function run()
+                        {
+                            window.location="Register.php";
+                        }
+                    </script>
+                
+            </header>
+        </body>
+        </html>
+            
+</body>
+</html>
