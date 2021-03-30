@@ -2,4 +2,9 @@
 
 ![Foodify](https://github.com/somyaranjan26/Foodify/blob/master/foodify/foodify_black.png)
 
-CREATE HEALTHY 
+CREATE HEALTHY HABITS NOT RESTRICTIONS.
+
+
+# Overview
+
+We came u
