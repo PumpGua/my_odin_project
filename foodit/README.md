@@ -11,4 +11,5 @@ We came up with a web application using machine learning which keeps the tracks 
 
 # Requirements
 
-1. To execute machine learning model instal
+1. To execute machine learning model install all in requirements.txt
+`pip install -r requirements.
