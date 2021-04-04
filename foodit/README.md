@@ -12,4 +12,9 @@ We came up with a web application using machine learning which keeps the tracks 
 # Requirements
 
 1. To execute machine learning model install all in requirements.txt
-`pip install -r requirements.
+`pip install -r requirements.txt`
+2. Install XAMPP
+
+# Run App
+
+1. Import the
