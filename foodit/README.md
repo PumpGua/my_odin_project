@@ -17,4 +17,4 @@ We came up with a web application using machine learning which keeps the tracks 
 
 # Run App
 
-1. Import the
+1. Import the **fitbit.sql** and **foodit.sql** files to database name **f
