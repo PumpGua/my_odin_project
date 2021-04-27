@@ -21,4 +21,5 @@ body {
                         rgba(175, 28, 219, 0.8)), 
                         url("Serving.jpg");
     background-size: cover;
-   
+    background-position: center;   
+    pos
