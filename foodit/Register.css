@@ -26,4 +26,9 @@ body {
 }
 .logo-box {
     position: absolute;
-    top
+    top: 40px;
+    left: 4%;
+}
+.logo {
+    height: 13vh;
+}
