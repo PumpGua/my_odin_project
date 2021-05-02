@@ -44,4 +44,9 @@ body {
 }
 
 .form {
-    height: aut
+    height: auto;
+    width: 400px;
+}
+
+h1 {
+    width: 40
