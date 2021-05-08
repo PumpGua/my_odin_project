@@ -69,3 +69,7 @@ section {
 path {
     fill:white;
 }
+
+.center {
+    display: flex;
+    justify-cont
