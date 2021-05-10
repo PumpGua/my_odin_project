@@ -72,4 +72,8 @@ path {
 
 .center {
     display: flex;
-    justify-cont
+    justify-content: center;
+}
+
+#Register {
+    line-height: 
