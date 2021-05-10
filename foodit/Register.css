@@ -76,4 +76,9 @@ path {
 }
 
 #Register {
-    line-height: 
+    line-height: 0.5;
+    height: 22px;
+    padding: 2px;
+}
+.emoji {
+    font
