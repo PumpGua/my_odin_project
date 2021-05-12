@@ -81,4 +81,7 @@ path {
     padding: 2px;
 }
 .emoji {
-    font
+    font-size:20px;
+}
+.message {
+    position: absolute;
