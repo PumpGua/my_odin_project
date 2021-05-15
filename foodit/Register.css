@@ -85,3 +85,8 @@ path {
 }
 .message {
     position: absolute;
+    font-size: 1.1rem;
+    bottom: 1%;
+}
+
+@media 
