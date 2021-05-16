@@ -96,4 +96,8 @@ path {
     
     .logo {
         height: 8vh;
-        margin-left: 15p
+        margin-left: 15px;
+    }
+    .text-area {
+        top: 39%;
+        height: 3
