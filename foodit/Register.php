@@ -2,4 +2,7 @@
 
 session_start();
 if (isset($_SESSION['uid'])) {
-    header("loca
+    header("location:dashboard.php");
+}
+include 'dbconnect.php';
+$error = 
