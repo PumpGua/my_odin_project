@@ -9,4 +9,6 @@ $error = 0;
 $msg='';
 function randstr($len)
 {
-    $str = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJK
+    $str = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPWRSTUVWXYZ";
+    $rand = "";
+    fo
