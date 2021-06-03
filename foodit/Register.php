@@ -11,4 +11,5 @@ function randstr($len)
 {
     $str = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPWRSTUVWXYZ";
     $rand = "";
-    fo
+    for ($i = 1; $i <= $len; $i++) {
+        $rand .= $
