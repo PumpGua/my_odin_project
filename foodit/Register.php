@@ -17,4 +17,6 @@ function randstr($len)
     return $rand;
 }
 if (isset($_POST['submit'])) {
-    $name = $_POST['n
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $pass = $_POST[
