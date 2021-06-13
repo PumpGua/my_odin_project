@@ -21,4 +21,5 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
     $pass = $_POST['pass'];
     $cnfpass = $_POST['cnfpass'];
-   
+    $fitbitid = $_POST['fitbitid'];
+ 
