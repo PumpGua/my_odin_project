@@ -24,4 +24,7 @@ if (isset($_POST['submit'])) {
     $fitbitid = $_POST['fitbitid'];
     if(strlen($pass)>4 and strlen($cnfpass)>4){
     if($pass==$cnfpass){
-    if (strlen($fitbit
+    if (strlen($fitbitid) > 0) {
+
+
+        $jsonurl = "http://localhos
