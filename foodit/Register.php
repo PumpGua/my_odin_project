@@ -22,4 +22,6 @@ if (isset($_POST['submit'])) {
     $pass = $_POST['pass'];
     $cnfpass = $_POST['cnfpass'];
     $fitbitid = $_POST['fitbitid'];
-    if(strlen($pass)>4 and strlen($cnfpass)
+    if(strlen($pass)>4 and strlen($cnfpass)>4){
+    if($pass==$cnfpass){
+    if (strlen($fitbit
