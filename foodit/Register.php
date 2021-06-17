@@ -29,4 +29,5 @@ if (isset($_POST['submit'])) {
 
         $jsonurl = "http://localhost/fitbitapi/index.php?verify=$fitbitid";
 
-        $json = file_get_con
+        $json = file_get_contents($jsonurl, 0, null, null);
+        $json_output = json_
