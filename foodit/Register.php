@@ -35,4 +35,5 @@ if (isset($_POST['submit'])) {
         if ($exists == '1') {
             $uid=randstr(14);
             
-            $query2="select * from users where
+            $query2="select * from users where email='$email'";
+            $run2=mysqli_query
