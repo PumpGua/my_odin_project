@@ -39,4 +39,6 @@ if (isset($_POST['submit'])) {
             $run2=mysqli_query($connect,$query2);
 
             if(mysqli_num_rows($run2)==0){
-           $query="insert into users values('NULL','$uid','$name','$email','$pass','$fitbitid'
+           $query="insert into users values('NULL','$uid','$name','$email','$pass','$fitbitid') ";
+           $run=mysqli_query($connect,$query);
+ 
