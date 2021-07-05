@@ -42,4 +42,4 @@ if (isset($_POST['submit'])) {
            $query="insert into users values('NULL','$uid','$name','$email','$pass','$fitbitid') ";
            $run=mysqli_query($connect,$query);
            if($run){
-               echo '<script>aler
+               echo '<script>alert("User Registered Succesfully");se
