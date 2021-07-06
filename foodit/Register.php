@@ -44,4 +44,6 @@ if (isset($_POST['submit'])) {
            if($run){
                echo '<script>alert("User Registered Succesfully");setTimeout(function(){ window.location="Login.php";  }); </script>';
            }
-        }else
+        }else{
+                    $error = 1;
+             
