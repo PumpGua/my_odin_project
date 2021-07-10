@@ -50,4 +50,8 @@ if (isset($_POST['submit'])) {
         }
         } else {
             $error=1;
-            $msg.='No user exists for given FitBi
+            $msg.='No user exists for given FitBit ID';
+        }
+      
+    } else {
+        $fitbitid =
