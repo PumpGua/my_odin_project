@@ -54,4 +54,7 @@ if (isset($_POST['submit'])) {
         }
       
     } else {
-        $fitbitid =
+        $fitbitid = 'NULL';
+                $uid = randstr(14);
+
+                
