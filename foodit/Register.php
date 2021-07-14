@@ -58,4 +58,6 @@ if (isset($_POST['submit'])) {
                 $uid = randstr(14);
 
                 $query2 = "select * from users where email='$email'";
-                $run2 = mysqli_qu
+                $run2 = mysqli_query($connect, $query2);
+
+                if (mysqli_num_rows($
