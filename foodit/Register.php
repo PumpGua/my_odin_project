@@ -57,4 +57,4 @@ if (isset($_POST['submit'])) {
         $fitbitid = 'NULL';
                 $uid = randstr(14);
 
-                
+                $query2 = "select * from users where ema
