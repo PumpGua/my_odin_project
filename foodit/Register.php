@@ -63,4 +63,5 @@ if (isset($_POST['submit'])) {
                 if (mysqli_num_rows($run2) == 0) {
                     $query = "insert into users values('NULL','$uid','$name','$email','$pass','$fitbitid') ";
                     $run = mysqli_query($connect, $query);
-                    if (
+                    if ($run) {
+                        echo '<script>aler
