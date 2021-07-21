@@ -65,4 +65,6 @@ if (isset($_POST['submit'])) {
                     $run = mysqli_query($connect, $query);
                     if ($run) {
                         echo '<script>alert("User Registered Succesfully");setTimeout(function(){ window.location="Login.php";  }); </script>';
-    
+                    }
+                } else {
+        
