@@ -67,4 +67,5 @@ if (isset($_POST['submit'])) {
                         echo '<script>alert("User Registered Succesfully");setTimeout(function(){ window.location="Login.php";  }); </script>';
                     }
                 } else {
-        
+                    $error = 1;
+                    $msg .= 
