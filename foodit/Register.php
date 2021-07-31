@@ -68,4 +68,10 @@ if (isset($_POST['submit'])) {
                     }
                 } else {
                     $error = 1;
-                    $msg .= 
+                    $msg .= 'Email ID already exists';
+                }
+    }
+    }
+    else {
+        $error = 1;
+        
