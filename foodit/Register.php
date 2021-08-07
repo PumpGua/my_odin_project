@@ -76,4 +76,6 @@ if (isset($_POST['submit'])) {
         $error = 1;
         $msg .= 'Password dont match';
     }
-}e
+}else{
+        $error = 1;
+        $msg .= 'Password shou
