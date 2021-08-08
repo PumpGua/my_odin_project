@@ -81,4 +81,5 @@ if (isset($_POST['submit'])) {
         $msg .= 'Password should be greater than 4';
 }
     if($error==1){
-        echo '<script>alert("'.$msg.'");setTimeout(function(){ windo
+        echo '<script>alert("'.$msg.'");setTimeout(function(){ window.location="Register.php";  }); </script>';
+    
