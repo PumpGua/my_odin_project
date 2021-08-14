@@ -82,4 +82,12 @@ if (isset($_POST['submit'])) {
 }
     if($error==1){
         echo '<script>alert("'.$msg.'");setTimeout(function(){ window.location="Register.php";  }); </script>';
-    
+    }
+
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
