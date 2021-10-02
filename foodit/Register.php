@@ -107,4 +107,6 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-    <header class="heade
+    <header class="header">
+        <div class="logo-box">
+            <i
