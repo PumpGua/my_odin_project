@@ -110,4 +110,7 @@ if (isset($_POST['submit'])) {
     <header class="header">
         <div class="logo-box">
             <img src="FoodiT_logo.png" alt="FoodiT Logo" class="logo">
-        <
+        </div>
+        <div class="logo-name">
+
+        </di
