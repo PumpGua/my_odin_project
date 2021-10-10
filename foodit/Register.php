@@ -113,4 +113,7 @@ if (isset($_POST['submit'])) {
         </div>
         <div class="logo-name">
 
-        </di
+        </div>
+        <div class="text-area">
+
+            <div class="m
