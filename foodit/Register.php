@@ -118,4 +118,5 @@ if (isset($_POST['submit'])) {
 
             <div class="main">
                 <div class="col-md-6 col-sm-12">
-                    <div class="l
+                    <div class="login-form">
+                        <h1>Regi
