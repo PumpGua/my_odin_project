@@ -117,4 +117,5 @@ if (isset($_POST['submit'])) {
         <div class="text-area">
 
             <div class="main">
-                <div class="col-md-6 col-
+                <div class="col-md-6 col-sm-12">
+                    <div class="l
