@@ -120,4 +120,5 @@ if (isset($_POST['submit'])) {
                 <div class="col-md-6 col-sm-12">
                     <div class="login-form">
                         <h1>Register</h1>
-                        <form class="form" actio
+                        <form class="form" action="Register.php" method="POST">
+                
