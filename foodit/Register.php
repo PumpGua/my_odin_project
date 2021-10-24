@@ -122,4 +122,4 @@ if (isset($_POST['submit'])) {
                         <h1>Register</h1>
                         <form class="form" action="Register.php" method="POST">
                             <div class="form-group">
-              
+                                <label>Enter Your Name</label>
