@@ -123,3 +123,4 @@ if (isset($_POST['submit'])) {
                         <form class="form" action="Register.php" method="POST">
                             <div class="form-group">
                                 <label>Enter Your Name</label>
+                                <input type="text
