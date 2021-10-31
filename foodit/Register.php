@@ -126,4 +126,5 @@ if (isset($_POST['submit'])) {
                                 <input type="text" name="name" class="form-control" placeholder="Name" required="">
                             </div>
                             <div class="form-group">
-                                <label>Ent
+                                <label>Enter Your Email Address</label>
+                             
