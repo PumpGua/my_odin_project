@@ -125,3 +125,4 @@ if (isset($_POST['submit'])) {
                                 <label>Enter Your Name</label>
                                 <input type="text" name="name" class="form-control" placeholder="Name" required="">
                             </div>
+                            <div class="fo
