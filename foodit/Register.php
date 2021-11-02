@@ -127,4 +127,4 @@ if (isset($_POST['submit'])) {
                             </div>
                             <div class="form-group">
                                 <label>Enter Your Email Address</label>
-                             
+                                <input type="email" name="email" class="form-contro
