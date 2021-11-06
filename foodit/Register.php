@@ -130,4 +130,5 @@ if (isset($_POST['submit'])) {
                                 <input type="email" name="email" class="form-control" placeholder="Email Address" required="">
                             </div>
 
-      
+                            <div class="form-group">
+       
