@@ -131,4 +131,5 @@ if (isset($_POST['submit'])) {
                             </div>
 
                             <div class="form-group">
-       
+                                <label>Enter password</label>
+  
