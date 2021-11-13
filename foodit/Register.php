@@ -134,4 +134,4 @@ if (isset($_POST['submit'])) {
                                 <label>Enter password</label>
                                 <input type="password" name="pass" class="form-control" placeholder="password" required="">
                             </div>
- 
+                            <div class="form-g
