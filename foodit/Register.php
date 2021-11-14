@@ -135,4 +135,5 @@ if (isset($_POST['submit'])) {
                                 <input type="password" name="pass" class="form-control" placeholder="password" required="">
                             </div>
                             <div class="form-group">
-                                <label>Confi
+                                <label>Confirm password</label>
+                           
