@@ -138,4 +138,5 @@ if (isset($_POST['submit'])) {
                                 <label>Confirm password</label>
                                 <input type="password" name="cnfpass" class="form-control" placeholder="Confirm password" required="">
                             </div>
-            
+                            <div class="form-group">
+    
