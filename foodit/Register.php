@@ -140,4 +140,4 @@ if (isset($_POST['submit'])) {
                             </div>
                             <div class="form-group">
                                 <label>Enter Your FitBit ID</label>
-                                <a href="#"
+                                <a href="#" style="font-size: 23px;" data-toggle="tooltip" titl
