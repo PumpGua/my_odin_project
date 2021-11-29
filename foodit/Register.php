@@ -142,3 +142,4 @@ if (isset($_POST['submit'])) {
                                 <label>Enter Your FitBit ID</label>
                                 <a href="#" style="font-size: 23px;" data-toggle="tooltip" title="If you do not have FitBit ID, Than some Feature may not available you.">
                                     *</a>
+                                <input type="text" name="f
