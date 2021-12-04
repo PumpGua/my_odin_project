@@ -144,3 +144,5 @@ if (isset($_POST['submit'])) {
                                     *</a>
                                 <input type="text" name="fitbitid" class="form-control" placeholder="FitBit ID">
                             </div>
+                            <div class="center">
+ 
