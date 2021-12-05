@@ -145,4 +145,5 @@ if (isset($_POST['submit'])) {
                                 <input type="text" name="fitbitid" class="form-control" placeholder="FitBit ID">
                             </div>
                             <div class="center">
-                                <button type="submit" name="submit" id="register" class="btn 
+                                <button type="submit" name="submit" id="register" class="btn btn-secondary">Register</button>
+               
