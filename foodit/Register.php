@@ -147,4 +147,6 @@ if (isset($_POST['submit'])) {
                             <div class="center">
                                 <button type="submit" name="submit" id="register" class="btn btn-secondary">Register</button>
                             </div>
-                    
+                        </form>
+                    </div>
+               
