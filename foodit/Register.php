@@ -154,4 +154,5 @@ if (isset($_POST['submit'])) {
         </div>
 
         <section>
-            <!--<svg id="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 24
+            <!--<svg id="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 244.52">
+                <path class="st0" d="M-9.1,192.7c242.9-
