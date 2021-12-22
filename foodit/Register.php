@@ -159,4 +159,6 @@ if (isset($_POST['submit'])) {
             </svg>-->
         </section>
 
-    </header
+    </header>
+    <script>
+        $(document).ready(function() {
