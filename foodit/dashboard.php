@@ -78,3 +78,45 @@ if (!isset($_SESSION['uid'])) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg py-3 navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <!-- Logo Image -->
+                <img src="foodify_black.png" width="200" alt="" class="d-inline-block align-middle mr-2">
+                <!-- Logo Text -->
+            </a>
+
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link mr-5"><b><?php echo $name; ?></b> <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a href="logout.php" class="text-white btn btn-danger nav-link ml-5">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">My Profile</h2> <br>
+                <div class="row">
+                    <div class="text-center col-md-6">
+                        <strong>Name :</strong>
+                    </div>
+                    <div class="text-center mb-2 col-md-6">
+                        <?php echo $name; ?>
+                    </div>
+                    <div class="text-center col-md-6">
+                        <strong>Email :</strong>
+                    </div>
