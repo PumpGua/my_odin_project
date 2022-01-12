@@ -120,3 +120,50 @@ if (!isset($_SESSION['uid'])) {
                     <div class="text-center col-md-6">
                         <strong>Email :</strong>
                     </div>
+                    <div class="text-center mb-2 col-md-6">
+                        <?php echo $email; ?>
+                    </div>
+                    <div class="text-center col-md-6">
+                        <strong>FitBit ID :</strong>
+                    </div>
+                    <div class="text-center mb-2 col-md-6">
+                        <?php echo $fitbitid; ?>
+                    </div>
+                    <?php if ($fitbitid != 'NULL') { ?>
+                        <div class="text-center col-md-6">
+                            <strong>BMR (Basal Metabolic Rate) :</strong>
+                        </div>
+                        <div class="text-center mb-2 col-md-6">
+                            <?php echo "<b>" . $bmr . " J/(h·kg)</b>"; ?>
+                        </div>
+                        <div class="text-center col-md-6">
+                            <strong>Max. Calorie Intake :</strong>
+                        </div>
+                        <div class="text-center mb-2 col-md-6">
+                            <?php echo "<b>" . number_format((float) $mycalorie, 2, '.', '') . " calories </b>"; ?>
+                        </div>
+                        <div class="text-center col-md-6">
+                            <strong>Burnt Calories :</strong>
+                        </div>
+                        <div class="text-center mb-2 col-md-6">
+                            <?php echo "<b>" . $fitbitcalorie . " calories </b>"; ?>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center">Total Intake Today</h2> <br>
+                <table class="ml-5 table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Total Calories / Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                        $total = 0;
+                        $query = "select * from intakes where uid='$uid' group by calorieid";
+                        $run = mysqli_query($connect, $query);
+
+                        ?>
