@@ -219,3 +219,24 @@ if (!isset($_SESSION['uid'])) {
         </div>
         <?php if ($total > ($fitbitcalorie + $mycalorie)) { ?>
             <div class="center">
+                <p style="font-size: 20px; color: red;" class="font-weight-bold text-center">
+                    You have consumed over the limit of your daily intake calories.</p>
+            </div>
+            <div class="center">
+                <p style="font-size: 20px; color: red;" class="font-weight-bold text-center">
+                    You need to burn atleast <?php echo (float)$total - number_format((float) $mycalorie, 2, '.', '') + (float)$fitbitcalorie;  ?> calories. </p>
+            </div>
+    <?php }
+    } ?>
+    <br>
+    <div class="center">
+        <button class="btn btn-success btn-lg" onclick="run()"><i class="fa fa-camera" aria-hidden="true"></i> Scanify</button>
+    </div><br><br>
+    <script>
+        function run() {
+            window.location.href = "scanify.php";
+        }
+    </script>
+</body>
+
+</html>
