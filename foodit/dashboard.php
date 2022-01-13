@@ -167,3 +167,55 @@ if (!isset($_SESSION['uid'])) {
                         $run = mysqli_query($connect, $query);
 
                         ?>
+                        <?php while ($row = mysqli_fetch_assoc($run)) {
+                            $foodid = $row['calorieid'];
+                            $query2 = "select * from calories where foodid='$foodid'";
+                            $run2 = mysqli_query($connect, $query2);
+                            $fetch2 = mysqli_fetch_assoc($run2);
+                            $foodname = $fetch2['name'];
+                            $calories = $fetch2['calories'];
+                            $date = $row['date'];
+                            $queryx = "select id from intakes where calorieid='$foodid'";
+                            $runx = mysqli_query($connect, $queryx);
+                            $count = mysqli_num_rows($runx);
+                            $todaydatecal = explode('/', $date)[0];
+                            $total = $total + $fetch2['calories'] * $count;
+
+                            if ($todaydate == $todaydatecal) {
+                                ?>
+                                <tr>
+
+                                    <td><?php echo strtoupper($foodname); ?></td>
+                                    <td><?php echo strtoupper($calories) * $count . ' / ' . $count; ?></td>
+
+                                </tr>
+                        <?php }
+                        } ?>
+                        <tr>
+                            <td><b>Total</b> </td>
+                            <td><b><?php echo $total; ?></b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> <br>
+    <?php if ($fitbitid != 'NULL') { ?>
+        <h2 class="text-center">Your Consumption</h2> <br>
+        <div class="center">
+            <?php $dispcalorie = number_format((float) $mycalorie, 2, '.', '') + $fitbitcalorie - $total;
+                if ((float) $dispcalorie > 0) {
+                    ?>
+                <p class="font-weight-bold text-center">
+
+                    You can consume <strong style="font-size: 20px;"><?php echo number_format((float) $dispcalorie, 2, '.', ''); ?> calories</strong>
+                <?php
+                    }
+                    ?>
+
+
+
+        </div>
+        </div>
+        <?php if ($total > ($fitbitcalorie + $mycalorie)) { ?>
+            <div class="center">
