@@ -1,2 +1,3 @@
 <?php 
-	$connect=mysqli_connect('loc
+	$connect=mysqli_connect('localhost','root','password','foodit');
+ ?>
