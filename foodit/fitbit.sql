@@ -30,3 +30,5 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
+  `uid` varchar(122) NOT NULL,
+  `name` varchar(122) NOT NU
