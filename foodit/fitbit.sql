@@ -34,4 +34,6 @@ CREATE TABLE `users` (
   `name` varchar(122) NOT NULL,
   `height` varchar(122) NOT NULL,
   `weight` varchar(122) NOT NULL,
-  `age` varchar(122) NO
+  `age` varchar(122) NOT NULL,
+  `sex` varchar(122) NOT NULL,
+  `excercise` 
