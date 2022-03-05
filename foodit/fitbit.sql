@@ -37,4 +37,8 @@ CREATE TABLE `users` (
   `age` varchar(122) NOT NULL,
   `sex` varchar(122) NOT NULL,
   `excercise` varchar(122) NOT NULL,
-  `burntcalories` var
+  `burntcalories` varchar(333) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-
