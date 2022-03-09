@@ -44,4 +44,4 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `uid`, `name`, `height`, `weight`
+INSERT INTO `users` (`id`, `uid`, `name`, `height`, `weight`, `age`, `sex`, `excercise`, `burntcalori
