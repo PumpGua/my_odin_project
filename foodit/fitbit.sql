@@ -44,4 +44,5 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `uid`, `name`, `height`, `weight`, `age`, `sex`, `excercise`, `burntcalori
+INSERT INTO `users` (`id`, `uid`, `name`, `height`, `weight`, `age`, `sex`, `excercise`, `burntcalories`) VALUES
+(1, 'f3fq3fqasdfsfdsa', 'Ankit'
