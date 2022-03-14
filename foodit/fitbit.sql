@@ -46,4 +46,4 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `uid`, `name`, `height`, `weight`, `age`, `sex`, `excercise`, `burntcalories`) VALUES
 (1, 'f3fq3fqasdfsfdsa', 'Ankit', '1.83', '80', '19', '1', '2', '67'),
-(2, '
+(2, 'j5j5jhythdfh4hs', 'Vishu', '1.78', '70', '19', '1', '3', '72')
