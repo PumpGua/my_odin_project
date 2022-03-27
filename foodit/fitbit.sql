@@ -57,4 +57,7 @@ INSERT INTO `users` (`id`, `uid`, `name`, `height`, `weight`, `age`, `sex`, `exc
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
-  ADD PRIM
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped table
