@@ -54,4 +54,7 @@ INSERT INTO `users` (`id`, `uid`, `name`, `height`, `weight`, `age`, `sex`, `exc
 --
 
 --
--- I
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIM
