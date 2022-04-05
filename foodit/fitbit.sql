@@ -65,3 +65,6 @@ ALTER TABLE `users`
 
 --
 -- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT
