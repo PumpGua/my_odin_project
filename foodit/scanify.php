@@ -3,4 +3,4 @@
 
 <head>
     <title>FoodiT :: Scan</title>
-    <script sr
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/j
