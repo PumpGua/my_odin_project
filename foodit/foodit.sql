@@ -143,3 +143,45 @@ CREATE TABLE `users` (
   `email` varchar(122) NOT NULL,
   `password` varchar(122) NOT NULL,
   `fitbitid` varchar(122) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `uid`, `name`, `email`, `password`, `fitbitid`) VALUES
+(1, '2RIqL6yHWWwdqI', 'Bhavya Gaglani', 'bhavya98.gaglani@gmail.com', 'gaglani98', 'f3fq3fqasdfsfdsa'),
+(2, 'bSYfMmW4tWmPN6', 'Palak Shah', 'palakshah337@gmail.com', 'palak99', 'j5j5jhythdfh4hs'),
+(5, '8wuCUhzYYUgmEZ', 'Tanmayi Samant', 'tanamayi123@gmail.com', 'tanmayi123', 'vxxverfeg34gdg');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `calories`
+--
+ALTER TABLE `calories`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `intakes`
+--
+ALTER TABLE `intakes`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `nutritions`
+--
+ALTER TABLE `nutritions`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
