@@ -20,3 +20,36 @@
 </head>
 <body>
     <header class="header">
+        <div class="logo-box">
+            <img src="FoodiT_logo.png" alt="FoodiT Logo" class="logo">
+        </div>
+
+        <div class="text-area">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">FoodiT</span>
+                <span class="heading-primary-sub">create healthy habits</span>
+                <span class="heading-primary-last">not restrictions</span>
+            </h1>
+        </div>
+
+        <button type="button" onclick="run()" class="start-button">
+                    Let's Start
+        </button>
+
+        <section>
+                <svg id="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 244.52">
+                    <path class="st0" d="M-9.1,192.7c242.9-109.5,410.5-247,699.3-83.9c383.6,216.5,716.5-19.2,716.5-19.2v173.5H-9.1V192.7z"/>
+                </svg>
+        </section>
+
+        
+        
+        <script>
+        function run()
+        {
+            window.location.href="Login.php";
+        }
+        </script>
+    </header>
+</body>
+</html>
