@@ -9,4 +9,8 @@
     <style type="text/css">
         #results {
             padding: 20px;
-            borde
+            border: 1px solid;
+            background: #ccc;
+        }
+
+  
