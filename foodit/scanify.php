@@ -13,4 +13,6 @@
             background: #ccc;
         }
 
-  
+        .center {
+            display: flex;
+            justi
