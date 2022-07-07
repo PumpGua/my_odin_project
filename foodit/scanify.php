@@ -15,4 +15,6 @@
 
         .center {
             display: flex;
-            justi
+            justify-content: center;
+            align-items: center;
+ 
