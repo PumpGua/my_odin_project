@@ -17,4 +17,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
- 
+        }
+
+        #logo img {
+            width: 30%;
+   
