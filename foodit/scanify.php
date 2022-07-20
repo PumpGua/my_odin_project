@@ -26,4 +26,5 @@
 </head>
 
 <body>
-    <div id="logo" class="container center my-4"><img src=
+    <div id="logo" class="container center my-4"><img src="FoodiT_logo.png"></div>
+    <div class="con
