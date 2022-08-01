@@ -28,4 +28,6 @@
 <body>
     <div id="logo" class="container center my-4"><img src="FoodiT_logo.png"></div>
     <div class="container">
-        <form method="POST" action="storeimage.php" enctype="multipart/form-data
+        <form method="POST" action="storeimage.php" enctype="multipart/form-data">
+            <div class="row">
+                
