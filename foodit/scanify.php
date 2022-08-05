@@ -31,4 +31,5 @@
         <form method="POST" action="storeimage.php" enctype="multipart/form-data">
             <div class="row">
                 <div class="col-md-6">
-                    <div
+                    <div id="my_camera"></div>
+                    <br>
