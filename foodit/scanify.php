@@ -30,4 +30,5 @@
     <div class="container">
         <form method="POST" action="storeimage.php" enctype="multipart/form-data">
             <div class="row">
-                
+                <div class="col-md-6">
+                    <div
