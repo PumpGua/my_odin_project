@@ -33,3 +33,5 @@
                 <div class="col-md-6">
                     <div id="my_camera"></div>
                     <br>
+                    <div class="center">
+        
