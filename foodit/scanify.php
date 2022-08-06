@@ -34,4 +34,6 @@
                     <div id="my_camera"></div>
                     <br>
                     <div class="center">
-                        <input id="snap" class="btn btn-warning" type=button value="Take Snapshot" onCl
+                        <input id="snap" class="btn btn-warning" type=button value="Take Snapshot" onClick="clickphoto()">
+                    </div>
+     
