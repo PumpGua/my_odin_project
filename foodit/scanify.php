@@ -39,4 +39,5 @@
                     <input type="hidden" name="image" class="tagimage">
 
                 </div>
-              
+                <div class="col-md-6">
+                    <div id="results">Your ca
