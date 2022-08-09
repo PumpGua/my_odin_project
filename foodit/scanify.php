@@ -36,4 +36,4 @@
                     <div class="center">
                         <input id="snap" class="btn btn-warning" type=button value="Take Snapshot" onClick="clickphoto()">
                     </div>
-     
+                    <input type="hidden" name="image" class="ta
