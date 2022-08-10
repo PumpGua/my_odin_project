@@ -40,4 +40,5 @@
 
                 </div>
                 <div class="col-md-6">
-                    <div id="results">Your ca
+                    <div id="results">Your captured image will appear here...</div>
+      
