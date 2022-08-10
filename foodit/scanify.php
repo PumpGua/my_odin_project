@@ -41,4 +41,5 @@
                 </div>
                 <div class="col-md-6">
                     <div id="results">Your captured image will appear here...</div>
-      
+                </div> <br>
+                <div cl
