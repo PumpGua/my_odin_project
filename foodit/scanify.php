@@ -47,4 +47,5 @@
                 <div class="col-md-6">
                     <div class="intake form-group container-fluid">
                         <p class="text-center font-weight-bold">Intake Quantity</p>
-                    
+                        <div class="center">
+                  
