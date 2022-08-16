@@ -48,4 +48,7 @@
                     <div class="intake form-group container-fluid">
                         <p class="text-center font-weight-bold">Intake Quantity</p>
                         <div class="center">
-                            <input name="qty" class="form-control input-lg" placeholder="Input your total Quantity" require
+                            <input name="qty" class="form-control input-lg" placeholder="Input your total Quantity" required>
+                        </div>
+                    </div>
+          
