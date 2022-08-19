@@ -51,4 +51,6 @@
                             <input name="qty" class="form-control input-lg" placeholder="Input your total Quantity" required>
                         </div>
                     </div>
-          
+                </div>
+
+                <div class="col-md-12 text-ce
