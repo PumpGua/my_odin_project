@@ -57,4 +57,8 @@
                     <br>
                     <button id="submit" name="submit" class="btn btn-success">Submit</button>
                 </div>
-      
+            </div>
+        </form>
+    </div>
+
+    <!-- Configure a few settin
