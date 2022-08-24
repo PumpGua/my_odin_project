@@ -62,4 +62,6 @@
     </div>
 
     <!-- Configure a few settings and attach camera -->
-    <script language="Java
+    <script language="JavaScript">
+        $('#submit').hide();
+        $('.i
