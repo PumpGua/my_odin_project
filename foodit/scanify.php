@@ -64,4 +64,6 @@
     <!-- Configure a few settings and attach camera -->
     <script language="JavaScript">
         $('#submit').hide();
-        $('.i
+        $('.intake').hide();
+        Webcam.set({
+           
