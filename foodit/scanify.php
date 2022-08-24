@@ -61,4 +61,5 @@
         </form>
     </div>
 
-    <!-- Configure a few settin
+    <!-- Configure a few settings and attach camera -->
+    <script language="Java
