@@ -66,4 +66,6 @@
         $('#submit').hide();
         $('.intake').hide();
         Webcam.set({
-           
+            width: 490,
+            height: 390,
+       
