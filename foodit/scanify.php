@@ -72,4 +72,7 @@
             jpeg_quality: 90
         });
 
-        Webcam.attach('#my_ca
+        Webcam.attach('#my_camera');
+
+        function clickphoto() {
+  
