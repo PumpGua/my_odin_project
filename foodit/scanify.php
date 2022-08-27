@@ -69,4 +69,7 @@
             width: 490,
             height: 390,
             image_format: 'jpeg',
-            jpeg_quality: 
+            jpeg_quality: 90
+        });
+
+        Webcam.attach('#my_ca
