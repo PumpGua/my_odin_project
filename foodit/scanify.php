@@ -75,4 +75,5 @@
         Webcam.attach('#my_camera');
 
         function clickphoto() {
-  
+            Webcam.snap(function(data_uri) {
+ 
