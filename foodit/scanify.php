@@ -77,4 +77,4 @@
         function clickphoto() {
             Webcam.snap(function(data_uri) {
                 $(".tagimage").val(data_uri);
-      
+                document.getElementById('results').innerHTML
