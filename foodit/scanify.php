@@ -81,3 +81,10 @@
                 $('#submit').show();
                 $('.intake').show();
                 $('#snap').hide();
+            });
+        }
+    </script>
+
+</body>
+
+</html>
