@@ -6,4 +6,5 @@
         header("location:index.php");
     } else {
         $uid = $_SESSION['uid'];
-        $query = "select * 
+        $query = "select * from users where uid='$uid'";
+        $run 
