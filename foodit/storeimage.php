@@ -3,4 +3,6 @@
     include 'dbconnect.php';
   
     if (!isset($_SESSION['uid'])) {
-        hea
+        header("location:index.php");
+    } else {
+       
