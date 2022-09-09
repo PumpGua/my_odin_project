@@ -7,4 +7,5 @@
     } else {
         $uid = $_SESSION['uid'];
         $query = "select * from users where uid='$uid'";
-        $run 
+        $run = mysqli_query($connect, $query);
+        $fet
