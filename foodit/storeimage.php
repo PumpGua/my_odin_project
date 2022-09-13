@@ -11,4 +11,10 @@
         $fetch = mysqli_fetch_assoc($run);
         $name = $fetch['name'];
         $email = $fetch['email'];
-        $fitbiti
+        $fitbitid = $fetch['fitbitid'];
+    
+
+   
+  
+    }
+    if (is
