@@ -19,4 +19,6 @@
     }
     if (isset($_POST['submit'])) {
          
-        $img = $
+        $img = $_POST['image'];
+        $qty=$_POST['qty'];
+ 
