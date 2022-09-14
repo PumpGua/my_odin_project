@@ -17,4 +17,6 @@
    
   
     }
-    if (is
+    if (isset($_POST['submit'])) {
+         
+        $img = $
