@@ -21,4 +21,6 @@
          
         $img = $_POST['image'];
         $qty=$_POST['qty'];
- 
+        
+        $folderPath = "images/";
+        f
