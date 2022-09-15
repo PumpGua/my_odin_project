@@ -23,4 +23,6 @@
         $qty=$_POST['qty'];
         
         $folderPath = "images/";
-        f
+        function randstr($len)
+        {
+          
