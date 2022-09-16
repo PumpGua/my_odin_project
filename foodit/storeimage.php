@@ -25,4 +25,6 @@
         $folderPath = "images/";
         function randstr($len)
         {
-            $str = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLM
+            $str = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPWRSTUVWXYZ";
+            $rand = "";
+            for 
