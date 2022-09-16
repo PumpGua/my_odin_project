@@ -27,4 +27,5 @@
         {
             $str = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPWRSTUVWXYZ";
             $rand = "";
-            for 
+            for ($i = 1; $i <= $len; $i++) {
+           
