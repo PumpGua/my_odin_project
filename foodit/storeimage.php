@@ -28,4 +28,4 @@
             $str = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPWRSTUVWXYZ";
             $rand = "";
             for ($i = 1; $i <= $len; $i++) {
-           
+                $rand .= $str[rand(0, strlen($str) 
