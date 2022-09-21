@@ -31,4 +31,7 @@
                 $rand .= $str[rand(0, strlen($str) - 1)];
             }
             return $rand;
-      
+        }
+    if ((int) $qty >= 1) {
+        
+        $imag
