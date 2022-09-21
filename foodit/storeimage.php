@@ -35,4 +35,4 @@
     if ((int) $qty >= 1) {
         
         $image_parts = explode(";base64,", $img);
-        $image_type_au
+        $image_type_aux = explode("image/", $image_parts[0])
