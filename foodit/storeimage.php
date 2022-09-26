@@ -44,4 +44,5 @@
 
         $file = $folderPath . $fileName;
 
-        
+        file_put_contents($file, $image_base64);
+
