@@ -46,4 +46,8 @@
 
         file_put_contents($file, $image_base64);
 
-        $code = 'python test.py images/' . $fileName
+        $code = 'python test.py images/' . $fileName;
+
+        exec($code, $output, $x);
+
+        $
