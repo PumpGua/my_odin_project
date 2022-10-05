@@ -50,4 +50,6 @@
 
         exec($code, $output, $x);
 
-        $
+        $brand = explode(" (score =", $output[0])[0];
+
+       
