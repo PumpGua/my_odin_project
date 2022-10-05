@@ -52,4 +52,5 @@
 
         $brand = explode(" (score =", $output[0])[0];
 
-        $queryx = "select * from calories where name like '
+        $queryx = "select * from calories where name like '%$brand%'";
+        $runx = mysqli_query($c
