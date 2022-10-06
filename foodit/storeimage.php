@@ -56,4 +56,5 @@
         $runx = mysqli_query($connect, $queryx);
         $datax = mysqli_fetch_assoc($runx);
         $name = $datax['name'];
-        $calories = $datax
+        $calories = $datax['calories'];
+        $calorieid = $datax['foo
