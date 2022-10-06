@@ -55,4 +55,5 @@
         $queryx = "select * from calories where name like '%$brand%'";
         $runx = mysqli_query($connect, $queryx);
         $datax = mysqli_fetch_assoc($runx);
- 
+        $name = $datax['name'];
+        $calories = $datax
