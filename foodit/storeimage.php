@@ -57,4 +57,6 @@
         $datax = mysqli_fetch_assoc($runx);
         $name = $datax['name'];
         $calories = $datax['calories'];
-        $calorieid = $datax['foo
+        $calorieid = $datax['foodid'];
+        
+        date_default_timezone_set(
