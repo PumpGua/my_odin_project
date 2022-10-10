@@ -59,4 +59,6 @@
         $calories = $datax['calories'];
         $calorieid = $datax['foodid'];
         
-        date_default_timezone_set(
+        date_default_timezone_set('Asia/Kolkata');
+        $i=1;
+        while($i<=$qty
