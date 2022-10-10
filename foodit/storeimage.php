@@ -61,4 +61,6 @@
         
         date_default_timezone_set('Asia/Kolkata');
         $i=1;
-        while($i<=$qty
+        while($i<=$qty){
+        $intakeid = randstr(14);
+        $time 
