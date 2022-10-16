@@ -63,4 +63,6 @@
         $i=1;
         while($i<=$qty){
         $intakeid = randstr(14);
-        $time 
+        $time = date("h:i:sA");
+        $date = date("d/m/Y");
+    
