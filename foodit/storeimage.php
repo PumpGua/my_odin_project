@@ -65,4 +65,4 @@
         $intakeid = randstr(14);
         $time = date("h:i:sA");
         $date = date("d/m/Y");
-    
+        $query = "insert into intakes values('NULL
