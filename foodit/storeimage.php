@@ -65,4 +65,5 @@
         $intakeid = randstr(14);
         $time = date("h:i:sA");
         $date = date("d/m/Y");
-        $query = "insert into intakes values('NULL
+        $query = "insert into intakes values('NULL','$intakeid','$calorieid','$uid','$date','$time')";
+     
