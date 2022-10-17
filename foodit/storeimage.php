@@ -66,4 +66,6 @@
         $time = date("h:i:sA");
         $date = date("d/m/Y");
         $query = "insert into intakes values('NULL','$intakeid','$calorieid','$uid','$date','$time')";
-     
+        $run = mysqli_query($connect, $query);
+        $i++;
+ 
