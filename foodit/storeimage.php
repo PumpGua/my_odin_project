@@ -71,4 +71,7 @@
         }
     }
     else{
-        echo '<script>alert("Quantiy of food shouln\'t be less than 1");setTimeout(function(){ window.locatio
+        echo '<script>alert("Quantiy of food shouln\'t be less than 1");setTimeout(function(){ window.location="scanify.php";  }); </script>';
+      
+    }
+    }
