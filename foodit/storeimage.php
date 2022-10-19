@@ -68,4 +68,7 @@
         $query = "insert into intakes values('NULL','$intakeid','$calorieid','$uid','$date','$time')";
         $run = mysqli_query($connect, $query);
         $i++;
- 
+        }
+    }
+    else{
+        echo '<script>
