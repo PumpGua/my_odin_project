@@ -71,4 +71,4 @@
         }
     }
     else{
-        echo '<script>
+        echo '<script>alert("Quantiy of food shouln\'t be less 
