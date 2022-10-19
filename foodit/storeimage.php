@@ -71,4 +71,4 @@
         }
     }
     else{
-        echo '<script>alert("Quantiy of food shouln\'t be less 
+        echo '<script>alert("Quantiy of food shouln\'t be less than 1");setTimeout(function(){ window.locatio
