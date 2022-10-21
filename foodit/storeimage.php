@@ -83,4 +83,4 @@
 
  <head>
      <meta charset="UTF-8">
-     <meta nam
+     <meta name="viewport" content="width=device-width, initial-s
