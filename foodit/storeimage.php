@@ -96,4 +96,5 @@
              align-items: center;
          }
 
-       
+         #logo img {
+             width: 3
