@@ -97,4 +97,10 @@
          }
 
          #logo img {
-             width: 3
+             width: 30%;
+         }
+     </style>
+ </head>
+
+ <body>
+    
