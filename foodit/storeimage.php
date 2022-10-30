@@ -107,4 +107,5 @@
      <div class="container">
          <div class="row">
              <div class="col-md-6">
-                 <img style="width:60%;" src=
+                 <img style="width:60%;" src="<?php echo $file; ?>">
+              
