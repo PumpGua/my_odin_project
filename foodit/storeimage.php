@@ -106,4 +106,5 @@
      <div id="logo" class="container center my-5"><img src="FoodiT_black.png"></div>
      <div class="container">
          <div class="row">
-             <div class="col-md
+             <div class="col-md-6">
+                 <img style="width:60%;" src=
