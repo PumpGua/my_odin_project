@@ -110,4 +110,4 @@
                  <img style="width:60%;" src="<?php echo $file; ?>">
                  <br>
                  <br>
-                 <
+                 <p style="font-size:20px; font-weight: bold;" class="tex
