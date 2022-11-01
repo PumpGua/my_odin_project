@@ -110,4 +110,5 @@
                  <img style="width:60%;" src="<?php echo $file; ?>">
                  <br>
                  <br>
-                 <p style="font-size:20px; font-weight: bold;" class="text-uppercase ml-5 pl-5"><?php echo $name; ?><
+                 <p style="font-size:20px; font-weight: bold;" class="text-uppercase ml-5 pl-5"><?php echo $name; ?></p><br>
+                 <p style="font-size:20px;
