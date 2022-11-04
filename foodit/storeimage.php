@@ -113,4 +113,5 @@
                  <p style="font-size:20px; font-weight: bold;" class="text-uppercase ml-5 pl-5"><?php echo $name; ?></p><br>
                  <p style="font-size:20px;" class="ml-5 pl-2">It contains <b><?php echo $calories; ?></b> calories.</p>
              </div>
-           
+             <div class="col-md-6">
+                 <h3
