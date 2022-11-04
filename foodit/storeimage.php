@@ -114,4 +114,4 @@
                  <p style="font-size:20px;" class="ml-5 pl-2">It contains <b><?php echo $calories; ?></b> calories.</p>
              </div>
              <div class="col-md-6">
-                 <h3
+                 <h3 class="text-center">Nutrients Value</h3> <br>
