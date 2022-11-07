@@ -116,4 +116,4 @@
              <div class="col-md-6">
                  <h3 class="text-center">Nutrients Value</h3> <br>
                  <?php
-                    $queryx 
+                    $queryx = "select * from nutritions where foodid='$calorieid'";
