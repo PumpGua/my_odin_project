@@ -117,3 +117,4 @@
                  <h3 class="text-center">Nutrients Value</h3> <br>
                  <?php
                     $queryx = "select * from nutritions where foodid='$calorieid'";
+                    $runx = mysqli_query($connect, $que
