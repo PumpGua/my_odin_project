@@ -118,4 +118,6 @@
                  <?php
                     $queryx = "select * from nutritions where foodid='$calorieid'";
                     $runx = mysqli_query($connect, $queryx);
-                    $fetchx = mysqli_fet
+                    $fetchx = mysqli_fetch_assoc($runx);
+                    ?>
+          
