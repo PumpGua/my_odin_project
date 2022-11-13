@@ -121,4 +121,5 @@
                     $fetchx = mysqli_fetch_assoc($runx);
                     ?>
                  <div class="row">
-                     <div clas
+                     <div class="text-center col-lg-6">
+                         <b>Pr
