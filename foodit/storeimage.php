@@ -122,4 +122,6 @@
                     ?>
                  <div class="row">
                      <div class="text-center col-lg-6">
-                         <b>Pr
+                         <b>Protein :</b>
+                     </div>
+                  
