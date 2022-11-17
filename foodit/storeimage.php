@@ -126,4 +126,5 @@
                      </div>
                      <div class="mb-2 text-center col-lg-6">
                          <?php echo $fetchx['protein']; ?>
-    
+                     </div>
+                     <div clas
