@@ -128,4 +128,6 @@
                          <?php echo $fetchx['protein']; ?>
                      </div>
                      <div class="text-center col-lg-6">
-                         <b>
+                         <b>Fat :</b>
+                     </div>
+     
