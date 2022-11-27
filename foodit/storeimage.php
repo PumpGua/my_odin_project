@@ -131,4 +131,6 @@
                          <b>Fat :</b>
                      </div>
                      <div class="mb-2 text-center col-lg-6">
-                         <?php echo $fetchx
+                         <?php echo $fetchx['fat']; ?>
+                     </div>
+          
