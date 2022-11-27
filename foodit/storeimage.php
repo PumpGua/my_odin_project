@@ -134,3 +134,4 @@
                          <?php echo $fetchx['fat']; ?>
                      </div>
                      <div class="text-center col-lg-6">
+                         <b>Cholestrol :</b>
