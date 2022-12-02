@@ -136,4 +136,5 @@
                      <div class="text-center col-lg-6">
                          <b>Cholestrol :</b>
                      </div>
-                  
+                     <div class="mb-2 text-center col-lg-6">
+                   
