@@ -139,4 +139,5 @@
                      <div class="mb-2 text-center col-lg-6">
                          <?php echo $fetchx['chol']; ?>
                      </div>
-                     <div class="te
+                     <div class="text-center col-lg-6">
+                         <b>Carbohydrates :<
