@@ -142,4 +142,5 @@
                      <div class="text-center col-lg-6">
                          <b>Carbohydrates :</b>
                      </div>
-               
+                     <div class="mb-2 text-center col-lg-6">
+ 
