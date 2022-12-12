@@ -145,4 +145,7 @@
                      <div class="mb-2 text-center col-lg-6">
                          <?php echo $fetchx['carbo']; ?>
                      </div>
-                 </div
+                 </div>
+             </div>
+         </div>
+        
