@@ -143,4 +143,6 @@
                          <b>Carbohydrates :</b>
                      </div>
                      <div class="mb-2 text-center col-lg-6">
-                         <?php echo $fetchx['car
+                         <?php echo $fetchx['carbo']; ?>
+                     </div>
+                 </div
