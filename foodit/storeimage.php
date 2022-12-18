@@ -157,4 +157,6 @@
      </div>
      <script>
          function dashboard() {
-             window.loca
+             window.location.href = "dashboard.php";
+         }
+   
