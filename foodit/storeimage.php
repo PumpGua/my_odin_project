@@ -159,4 +159,7 @@
          function dashboard() {
              window.location.href = "dashboard.php";
          }
-   
+     </script>
+ </body>
+
+ </html>
