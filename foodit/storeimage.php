@@ -156,4 +156,5 @@
          </div>
      </div>
      <script>
-         f
+         function dashboard() {
+             window.loca
