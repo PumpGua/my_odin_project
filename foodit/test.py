@@ -8,4 +8,5 @@ def main(args):
         graph_def = tf.GraphDef()
         graph_def.ParseFromString(f.read())
         _ = tf.import_graph_def(graph_def, name='')
-    with tf.Session()
+    with tf.Session() as sess:
+        softmax_tensor = sess.graph.
