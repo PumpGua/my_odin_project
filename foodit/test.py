@@ -6,4 +6,5 @@ def main(args):
         in tf.gfile.GFile('output_labels.txt')]
     with tf.gfile.FastGFile('output_graph.pb', 'rb') as f:
         graph_def = tf.GraphDef()
-        graph_de
+        graph_def.ParseFromString(f.read())
+        _ = tf.impor
