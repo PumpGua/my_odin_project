@@ -9,4 +9,5 @@ def main(args):
         graph_def.ParseFromString(f.read())
         _ = tf.import_graph_def(graph_def, name='')
     with tf.Session() as sess:
-        softmax_tensor = sess.graph.
+        softmax_tensor = sess.graph.get_tensor_by_name('final_result:0')
+        p
