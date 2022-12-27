@@ -10,4 +10,5 @@ def main(args):
         _ = tf.import_graph_def(graph_def, name='')
     with tf.Session() as sess:
         softmax_tensor = sess.graph.get_tensor_by_name('final_result:0')
-        p
+        predictions = sess.run(softmax_tensor, 
+  
