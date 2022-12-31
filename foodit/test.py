@@ -12,4 +12,6 @@ def main(args):
         softmax_tensor = sess.graph.get_tensor_by_name('final_result:0')
         predictions = sess.run(softmax_tensor, 
         {'DecodeJpeg/contents:0': image_data})
-        top_k = predictions[0].argsort()[-len(predict
+        top_k = predictions[0].argsort()[-len(predictions[0]):][::-1]
+        for node_id in top_k:
+          
