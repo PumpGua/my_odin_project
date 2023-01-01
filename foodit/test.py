@@ -20,4 +20,6 @@ def main(args):
 
 def parse_arguments(argv):
 
-    parser = argparse.ArgumentParse
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('image_path', type=str,
