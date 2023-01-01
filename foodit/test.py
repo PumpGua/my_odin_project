@@ -18,4 +18,6 @@ def main(args):
             score = predictions[0][node_id]
             print('%s (score = %.5f)' % (human_string, score))
 
-def parse_
+def parse_arguments(argv):
+
+    parser = argparse.ArgumentParse
