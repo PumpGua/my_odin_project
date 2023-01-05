@@ -28,4 +28,4 @@ def parse_arguments(argv):
     return parser.parse_args(argv)
 
 
-main(parse_arguments(sys.argv[1:]
+main(parse_arguments(sys.argv[1:]))
