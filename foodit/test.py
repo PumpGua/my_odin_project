@@ -25,4 +25,7 @@ def parse_arguments(argv):
     parser.add_argument('image_path', type=str,
                         help='The image path of the testing image.')
 
-    return pa
+    return parser.parse_args(argv)
+
+
+main(parse_arguments(sys.argv[1:]
