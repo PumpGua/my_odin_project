@@ -7,4 +7,6 @@
 -- Server version: 8.0.18
 -- PHP Version: 7.3.12
 
-SET SQL_MODE = "
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSA
