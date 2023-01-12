@@ -25,4 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table st
+-- Table structure for table `calories`
+--
+
+CREATE TABLE `calo
