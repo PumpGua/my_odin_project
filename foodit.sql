@@ -28,4 +28,6 @@ SET time_zone = "+00:00";
 -- Table structure for table `calories`
 --
 
-CREATE TABLE `calo
+CREATE TABLE `calories` (
+  `id` int(11) NOT NULL,
+  `foodid` v
