@@ -30,4 +30,5 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `calories` (
   `id` int(11) NOT NULL,
-  `foodid` v
+  `foodid` varchar(233) NOT NULL,
+  `name` varchar(333) NOT NU
