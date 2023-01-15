@@ -39,3 +39,4 @@ CREATE TABLE `calories` (
 -- Dumping data for table `calories`
 --
 
+INSERT INTO `calories` (`id`, `foodid`, `name`, `calories`) VA
