@@ -39,4 +39,5 @@ CREATE TABLE `calories` (
 -- Dumping data for table `calories`
 --
 
-INSERT INTO `calories` (`id`, `foodid`, `name`, `calories`) VA
+INSERT INTO `calories` (`id`, `foodid`, `name`, `calories`) VALUES
+(1, '345dwef32rf3sfsfd', 'lays waffers', '180'),
