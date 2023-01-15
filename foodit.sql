@@ -33,4 +33,6 @@ CREATE TABLE `calories` (
   `foodid` varchar(233) NOT NULL,
   `name` varchar(333) NOT NULL,
   `calories` varchar(333) NOT NULL
-) ENGI
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
