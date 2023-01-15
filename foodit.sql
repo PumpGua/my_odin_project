@@ -36,3 +36,6 @@ CREATE TABLE `calories` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Dumping data for table `calories`
+--
+
