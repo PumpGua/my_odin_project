@@ -42,4 +42,5 @@ CREATE TABLE `calories` (
 INSERT INTO `calories` (`id`, `foodid`, `name`, `calories`) VALUES
 (1, '345dwef32rf3sfsfd', 'lays waffers', '180'),
 (2, 'du8sd82hdsjdha', 'balaji waffers', '165'),
-(3, 'sf3tfsf3fsadf3s', 'parleg biscuit', '260')
+(3, 'sf3tfsf3fsadf3s', 'parleg biscuit', '260'),
+(4, 'j8o5i7jtyhdfgerge', 'krackjack biscu
