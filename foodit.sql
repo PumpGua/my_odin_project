@@ -45,4 +45,6 @@ INSERT INTO `calories` (`id`, `foodid`, `name`, `calories`) VALUES
 (3, 'sf3tfsf3fsadf3s', 'parleg biscuit', '260'),
 (4, 'j8o5i7jtyhdfgerge', 'krackjack biscuit', '300'),
 (5, 'bisg8s8gd8s88', 'maggi noodles', '345'),
-(
+(6, 'sf939whf9sdfjs', 'pepsi can', '156');
+
+-- 
