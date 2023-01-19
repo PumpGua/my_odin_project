@@ -51,3 +51,8 @@ INSERT INTO `calories` (`id`, `foodid`, `name`, `calories`) VALUES
 
 --
 -- Table structure for table `intakes`
+--
+
+CREATE TABLE `intakes` (
+  `id` int(11) NOT NULL,
+  
