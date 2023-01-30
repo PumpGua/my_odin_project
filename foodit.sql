@@ -56,4 +56,5 @@ INSERT INTO `calories` (`id`, `foodid`, `name`, `calories`) VALUES
 CREATE TABLE `intakes` (
   `id` int(11) NOT NULL,
   `intakeid` varchar(122) NOT NULL,
-  `calorieid` varchar
+  `calorieid` varchar(122) NOT NULL,
+  `uid` varchar(122) NOT NULL
