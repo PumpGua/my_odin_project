@@ -57,4 +57,6 @@ CREATE TABLE `intakes` (
   `id` int(11) NOT NULL,
   `intakeid` varchar(122) NOT NULL,
   `calorieid` varchar(122) NOT NULL,
-  `uid` varchar(122) NOT NULL
+  `uid` varchar(122) NOT NULL,
+  `date` varchar(122) NOT NULL,
+  `time
