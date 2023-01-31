@@ -63,4 +63,7 @@ CREATE TABLE `intakes` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for t
+-- Dumping data for table `intakes`
+--
+
+INSERT INTO `intakes` (`id`, `inta
