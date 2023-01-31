@@ -59,4 +59,5 @@ CREATE TABLE `intakes` (
   `calorieid` varchar(122) NOT NULL,
   `uid` varchar(122) NOT NULL,
   `date` varchar(122) NOT NULL,
-  `time
+  `time` varchar(122) NOT NULL
+) ENGINE=InnoDB DEFA
