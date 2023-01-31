@@ -60,4 +60,7 @@ CREATE TABLE `intakes` (
   `uid` varchar(122) NOT NULL,
   `date` varchar(122) NOT NULL,
   `time` varchar(122) NOT NULL
-) ENGINE=InnoDB DEFA
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for t
