@@ -66,4 +66,4 @@ CREATE TABLE `intakes` (
 -- Dumping data for table `intakes`
 --
 
-INSERT INTO `intakes` (`id`, `inta
+INSERT INTO `intakes` (`id`, `intakeid`, `calorieid`, `uid`, `date`, `time`) VALUES
