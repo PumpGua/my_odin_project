@@ -67,3 +67,4 @@ CREATE TABLE `intakes` (
 --
 
 INSERT INTO `intakes` (`id`, `intakeid`, `calorieid`, `uid`, `date`, `time`) VALUES
+(54, 'RIevEdk4zrJ1gM', 'sf3tfsf3fsadf3s', 'bSYfMmW4tWmP
