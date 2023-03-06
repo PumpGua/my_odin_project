@@ -86,4 +86,5 @@ INSERT INTO `intakes` (`id`, `intakeid`, `calorieid`, `uid`, `date`, `time`) VAL
 (77, 'nJlc6vYgR6zLOv', '345dwef32rf3sfsfd', '2RIqL6yHWWwdqI', '13/10/2019', '10:31:07AM'),
 (78, 'nEFz4xg9VVsxxt', '345dwef32rf3sfsfd', '2RIqL6yHWWwdqI', '13/10/2019', '10:31:07AM'),
 (79, 'PvV8YctY12NWGl', '345dwef32rf3sfsfd', '2RIqL6yHWWwdqI', '13/10/2019', '10:31:07AM'),
-(80, '42g3KbVcHCJ9WU', '345dwef32rf3sfsfd', '2RIqL6yHWWwdqI', '
+(80, '42g3KbVcHCJ9WU', '345dwef32rf3sfsfd', '2RIqL6yHWWwdqI', '13/10/2019', '10:31:07AM'),
+(81, 'vi7P1a3Jh3owb7', '345d
