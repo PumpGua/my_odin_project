@@ -101,4 +101,7 @@ INSERT INTO `intakes` (`id`, `intakeid`, `calorieid`, `uid`, `date`, `time`) VAL
 (92, '1CnxAURLJ7nDth', 'sf3tfsf3fsadf3s', 'bSYfMmW4tWmPN6', '13/10/2019', '10:48:42AM'),
 (93, 'SfJCLq5F49Ekzw', 'sf3tfsf3fsadf3s', 'bSYfMmW4tWmPN6', '13/10/2019', '10:48:42AM');
 
--- --------------
+-- --------------------------------------------------------
+
+--
+-- Table 
