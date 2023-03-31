@@ -107,4 +107,5 @@ INSERT INTO `intakes` (`id`, `intakeid`, `calorieid`, `uid`, `date`, `time`) VAL
 -- Table structure for table `nutritions`
 --
 
-CREATE 
+CREATE TABLE `nutritions` (
+  `id` int(1
