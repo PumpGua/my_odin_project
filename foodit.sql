@@ -108,4 +108,5 @@ INSERT INTO `intakes` (`id`, `intakeid`, `calorieid`, `uid`, `date`, `time`) VAL
 --
 
 CREATE TABLE `nutritions` (
-  `id` int(1
+  `id` int(11) NOT NULL,
+  `nutritionid` varchar(122) NOT NULL,
