@@ -110,3 +110,5 @@ INSERT INTO `intakes` (`id`, `intakeid`, `calorieid`, `uid`, `date`, `time`) VAL
 CREATE TABLE `nutritions` (
   `id` int(11) NOT NULL,
   `nutritionid` varchar(122) NOT NULL,
+  `foodid` varchar(122) NOT NULL,
+  `fa
