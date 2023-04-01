@@ -111,4 +111,5 @@ CREATE TABLE `nutritions` (
   `id` int(11) NOT NULL,
   `nutritionid` varchar(122) NOT NULL,
   `foodid` varchar(122) NOT NULL,
-  `fa
+  `fat` varchar(122) NOT NULL,
+  `chol` varchar(
