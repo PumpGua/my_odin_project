@@ -113,4 +113,6 @@ CREATE TABLE `nutritions` (
   `foodid` varchar(122) NOT NULL,
   `fat` varchar(122) NOT NULL,
   `chol` varchar(122) NOT NULL,
-  `carbo` varchar(122) NOT NULL
+  `carbo` varchar(122) NOT NULL,
+  `protein` varchar(122) NOT NULL
+) ENGIN
