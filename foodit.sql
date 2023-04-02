@@ -115,4 +115,7 @@ CREATE TABLE `nutritions` (
   `chol` varchar(122) NOT NULL,
   `carbo` varchar(122) NOT NULL,
   `protein` varchar(122) NOT NULL
-) ENGIN
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+--
