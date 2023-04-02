@@ -118,4 +118,7 @@ CREATE TABLE `nutritions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Dumping data for table `nutritions`
 --
+
+INSERT INTO `nutrition
