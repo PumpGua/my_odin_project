@@ -122,4 +122,5 @@ CREATE TABLE `nutritions` (
 --
 
 INSERT INTO `nutritions` (`id`, `nutritionid`, `foodid`, `fat`, `chol`, `carbo`, `protein`) VALUES
-(1, 'asdw223dasdadawee2', '345dwef32rf3sfsfd', '18 mg', 
+(1, 'asdw223dasdadawee2', '345dwef32rf3sfsfd', '18 mg', '0 mg', '26 g', '3 g'),
+(2, 'wdcszcxcwcwc', 'sf3tfsf3fs
