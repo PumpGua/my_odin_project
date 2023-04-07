@@ -121,4 +121,4 @@ CREATE TABLE `nutritions` (
 -- Dumping data for table `nutritions`
 --
 
-INSERT INTO `nutrition
+INSERT INTO `nutritions` (`id`, `nutritionid`, `foodid`, `fat`, `
