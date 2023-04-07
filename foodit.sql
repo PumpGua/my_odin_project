@@ -121,4 +121,5 @@ CREATE TABLE `nutritions` (
 -- Dumping data for table `nutritions`
 --
 
-INSERT INTO `nutritions` (`id`, `nutritionid`, `foodid`, `fat`, `
+INSERT INTO `nutritions` (`id`, `nutritionid`, `foodid`, `fat`, `chol`, `carbo`, `protein`) VALUES
+(1, 'asdw223d
