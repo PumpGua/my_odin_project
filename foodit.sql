@@ -127,4 +127,4 @@ INSERT INTO `nutritions` (`id`, `nutritionid`, `foodid`, `fat`, `chol`, `carbo`,
 (3, 'asdad3d2dadasd', 'du8sd82hdsjdha', '34.5 g', '0 g', '55.2 g', '6.5 g'),
 (4, '3fqfsfdfsfwf32fe3', 'j8o5i7jtyhdfgerge', '21.4 g', '0 g', '69.2 g', '6.6 g'),
 (5, 'fsdf3f3t34fqwef', 'bisg8s8gd8s88', '16 g', '0 g', '62 g', '11 g'),
-(6, 'asd1ed2dasdadqwdasdasda', 'sf939w
+(6, 'asd1ed2dasdadqwdasdasda', 'sf939whf9sdfjs', '0 g', '0 g', '41 g', '0 
