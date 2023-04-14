@@ -133,3 +133,7 @@ INSERT INTO `nutritions` (`id`, `nutritionid`, `foodid`, `fat`, `chol`, `carbo`,
 
 --
 -- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT 
