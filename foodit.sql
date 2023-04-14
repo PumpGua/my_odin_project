@@ -129,4 +129,7 @@ INSERT INTO `nutritions` (`id`, `nutritionid`, `foodid`, `fat`, `chol`, `carbo`,
 (5, 'fsdf3f3t34fqwef', 'bisg8s8gd8s88', '16 g', '0 g', '62 g', '11 g'),
 (6, 'asd1ed2dasdadqwdasdasda', 'sf939whf9sdfjs', '0 g', '0 g', '41 g', '0 g');
 
--- --------------------------------------
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
