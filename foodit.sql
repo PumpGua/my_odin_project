@@ -138,4 +138,5 @@ INSERT INTO `nutritions` (`id`, `nutritionid`, `foodid`, `fat`, `chol`, `carbo`,
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `uid` varchar(122) NOT NULL,
-  `name` 
+  `name` varchar(122) NOT NULL,
+  `email` varchar(122) NOT
