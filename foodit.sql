@@ -141,4 +141,5 @@ CREATE TABLE `users` (
   `name` varchar(122) NOT NULL,
   `email` varchar(122) NOT NULL,
   `password` varchar(122) NOT NULL,
-  `fitbitid`
+  `fitbitid` varchar(122) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET
