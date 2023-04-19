@@ -139,4 +139,6 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `uid` varchar(122) NOT NULL,
   `name` varchar(122) NOT NULL,
-  `email` varchar(122) NOT
+  `email` varchar(122) NOT NULL,
+  `password` varchar(122) NOT NULL,
+  `fitbitid`
