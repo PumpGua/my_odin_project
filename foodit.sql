@@ -142,4 +142,8 @@ CREATE TABLE `users` (
   `email` varchar(122) NOT NULL,
   `password` varchar(122) NOT NULL,
   `fitbitid` varchar(122) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
