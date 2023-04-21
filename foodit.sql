@@ -147,3 +147,5 @@ CREATE TABLE `users` (
 --
 -- Dumping data for table `users`
 --
+
+INSERT INTO `users` (`id`, `uid`, `name`, `email`, `password`, `fitbi
