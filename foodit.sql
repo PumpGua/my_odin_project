@@ -148,4 +148,5 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `uid`, `name`, `email`, `password`, `fitbi
+INSERT INTO `users` (`id`, `uid`, `name`, `email`, `password`, `fitbitid`) VALUES
+(1, '2RIqL6yHWWwdqI', 'Bhavya Gaglani', 'bh
