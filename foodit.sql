@@ -149,4 +149,5 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `uid`, `name`, `email`, `password`, `fitbitid`) VALUES
-(1, '2RIqL6yHWWwdqI', 'Bhavya Gaglani', 'bhavya98.gaglani@gmail.com', 'gaglani98', 'f3fq3fqasdfsfds
+(1, '2RIqL6yHWWwdqI', 'Bhavya Gaglani', 'bhavya98.gaglani@gmail.com', 'gaglani98', 'f3fq3fqasdfsfdsa'),
+(2, 'bSYfMmW4tWmPN6', 'Palak Shah', 'pal
