@@ -157,3 +157,7 @@ INSERT INTO `users` (`id`, `uid`, `name`, `email`, `password`, `fitbitid`) VALUE
 -- Indexes for dumped tables
 --
 
+--
+-- Indexes for table `calories`
+--
+ALTER
