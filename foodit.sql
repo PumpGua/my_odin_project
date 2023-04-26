@@ -151,4 +151,9 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `uid`, `name`, `email`, `password`, `fitbitid`) VALUES
 (1, '2RIqL6yHWWwdqI', 'Bhavya Gaglani', 'bhavya98.gaglani@gmail.com', 'gaglani98', 'f3fq3fqasdfsfdsa'),
 (2, 'bSYfMmW4tWmPN6', 'Palak Shah', 'palakshah337@gmail.com', 'palak99', 'j5j5jhythdfh4hs'),
-(5, '8wuCUhzYYUgmEZ', 'Tanmayi Samant', 'tanamayi123@gmail.com', 'tanmayi123', 'vxxver
+(5, '8wuCUhzYYUgmEZ', 'Tanmayi Samant', 'tanamayi123@gmail.com', 'tanmayi123', 'vxxverfeg34gdg');
+
+--
+-- Indexes for dumped tables
+--
+
