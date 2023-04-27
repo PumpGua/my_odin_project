@@ -163,4 +163,7 @@ INSERT INTO `users` (`id`, `uid`, `name`, `email`, `password`, `fitbitid`) VALUE
 ALTER TABLE `calories`
   ADD PRIMARY KEY (`id`);
 
--
+--
+-- Indexes for table `intakes`
+--
+ALTER
