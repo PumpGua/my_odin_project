@@ -166,4 +166,8 @@ ALTER TABLE `calories`
 --
 -- Indexes for table `intakes`
 --
-ALTER
+ALTER TABLE `intakes`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index
