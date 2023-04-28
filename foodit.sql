@@ -170,4 +170,6 @@ ALTER TABLE `intakes`
   ADD PRIMARY KEY (`id`);
 
 --
--- Index
+-- Indexes for table `nutritions`
+--
+ALTER TABLE `nutrit
