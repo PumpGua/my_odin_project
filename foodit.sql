@@ -176,4 +176,7 @@ ALTER TABLE `nutritions`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for tabl
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PR
