@@ -186,4 +186,7 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `ca
+-- AUTO_INCREMENT for table `calories`
+--
+ALTER TABLE `calories`
+  MODIFY `id` int(
