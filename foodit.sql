@@ -189,4 +189,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `calories`
 --
 ALTER TABLE `calories`
-  MODIFY `id` int(
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-
