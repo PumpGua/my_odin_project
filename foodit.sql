@@ -179,4 +179,7 @@ ALTER TABLE `nutritions`
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
-  ADD PR
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for du
