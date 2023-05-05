@@ -192,4 +192,4 @@ ALTER TABLE `calories`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
--
+-- AUTO_INCREMENT for table `intakes
