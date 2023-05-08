@@ -198,4 +198,6 @@ ALTER TABLE `intakes`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=94;
 
 --
--- AUTO_INCREMENT
+-- AUTO_INCREMENT for table `nutritions`
+--
+ALTER TABLE `nutri
