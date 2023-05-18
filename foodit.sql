@@ -201,4 +201,7 @@ ALTER TABLE `intakes`
 -- AUTO_INCREMENT for table `nutritions`
 --
 ALTER TABLE `nutritions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUT
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `use
